@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form pendaftaran siswa lama</title>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0f0f0f;
+            font-family: 'Orbitron', sans-serif;
+            color: #00ffff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+        }
+
+        img {
+            margin: 20px 0;
+            filter: drop-shadow(0 0 5px cyan);
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        fieldset {
+            border: 2px solid cyan;
+            padding: 20px;
+            margin: 20px auto;
+            width: 90%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px cyan;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        select,
+        textarea {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+            background-color: #111;
+            color: #00ffff;
+            box-shadow: 0 0 5px #00ffff inset;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        button {
+            background: #00ffff;
+            border: none;
+            color: #000;
+            padding: 10px 25px;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 15px;
+            cursor: pointer;
+            box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+            transition: transform 0.2s, box-shadow 0.3s;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
+        }
+
+        audio {
+            margin-top: 15px;
+            filter: drop-shadow(0 0 8px cyan);
+        }
+
+        marquee {
+            margin-top: 20px;
+            color: red;
+            font-weight: bold;
+            text-shadow: 0 0 10px red;
+        }
+
+        table {
+            margin: 30px auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 15px cyan;
+        }
+
+        table th,
+        table td {
+            border: 1px solid cyan;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        table tr:nth-child(1) {
+            background-color: #00ffff;
+            color: #000;
+        }
+
+        h2 {
+            margin-top: 40px;
+            text-shadow: 0 0 10px cyan;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1 align="center">formulir pendaftaran siswa lama</h1>
+        <center>
+            <img src="logo sahil.png" alt="" width="150">
+        </center>
+        <p align="center">isi aja formulir di bawah ini datanya g bener sama g lengkap juga gpp</p>
+        <hr>
+        <form action="">
+        <fieldset>
+            <p align="center">
+                <label for="nama lengkap">Nama Lengkap:</label>
+                <input type="text" id="nama lengkap" name="nama lengkap">
+            </p>
+            <p align="center">
+                <label for="nisn">NISN:</label>
+                <input type="text" id="nisn" name="nisn">
+            </p>
+            <p align="center">
+                <label for="">Jenis status</label>
+                <label for=""><input type="radio" name="status" id="">jomblo</label>
+                <label for=""><input type="radio" name="status" id="">punya pasangan</label>
+            </p>
+            <p align="center">
+                <label for="">Tanggal Lahir</label>
+                <input type="date" name="" id="">
+            </p>
+            <p align="center">
+                <label for="jurusan">Jurusan:</label>
+                <select id="jurusan" name="jurusan">
+                    <option value="rpl">Rekayasa Perangkat Lunak</option>
+                    <option value="tkj">Teknik Komputer dan Jaringan</option>
+                    <option value="mm">Multimedia</option>
+                </select>
+            </p>
+            <p align="center">
+                <label for="alamat">Alamat:</label>
+                <textarea id="alamat" name="alamat" rows="4" cols="50"></textarea>
+            </p>
+            <center>
+                <button>sebarkan data</button>
+            </center>
+        </fieldset>
+        </form>
+        <hr>
+        <p align="center"><b>dilarang putar audio tersebut</b></p>
+        <center>
+            <fieldset>
+                <audio controls src="hanya-audio-biasa.mp3"></audio>
+            </fieldset>
+        </center>
+        <hr>
+        <marquee behavior="scroll" direction="left">selamat anda tidak diterima di sekolah ini karna anda miskin
+            🚅🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃</marquee>
+        <p align="center"><b>daftar siksaan</b></p>
+        <table border="1" cellpadding="10" cellspacing="0" align="center">
+            <tr bgcolor="cyan">
+                <td>no</td>
+                <td>jurusan</td>
+                <td>keterangan</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>RPL</td>
+                <td>Rekayasa Perangkat Lunak</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>TKJ</td>
+                <td>Teknik Komputer dan Jaringan</td>
+            <tr>
+                <td>3</td>
+                <td>MM</td>
+                <td>Multimedia</td>
+            </tr>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>
